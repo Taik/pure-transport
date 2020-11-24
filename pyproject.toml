@@ -1,0 +1,16 @@
+[tool]
+[tool.poetry]
+name = "pure-transport"
+version = "0.2.0"
+description = "Pure Sasl Based Thrift Transport for PyHive"
+license = "GPLv3+"
+keywords = ["pyhive"]
+classifiers = ["Development Status :: 3 - Alpha", "Intended Audience :: Developers", "License :: OSI Approved :: MIT License", "Natural Language :: English", "Operating System :: OS Independent", "Programming Language :: Python :: 2.6", "Programming Language :: Python :: 2.7", "Programming Language :: Python :: 3.3", "Programming Language :: Python :: 3.4", "Topic :: Software Development :: Libraries :: Python Modules"]
+homepage = "https://github.com/devinstevenson/pure-transport"
+authors = ["Devin Stevenson"]
+
+[tool.poetry.dependencies]
+python = "*"
+pure-sasl = ">=0.3.0"
+thrift = "*"
+thrift-sasl = "*"
